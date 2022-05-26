@@ -1,4 +1,4 @@
-# <i>NoStos</i> nella pelle
+# No<i>Stos</i> nella pelle
 
 Final Project - "Digital Heritage and Multimedia", Simona Caraceni & Sofia Pescarin @ University of Bologna, MA "DHDK"
 
