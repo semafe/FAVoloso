@@ -187,3 +187,26 @@ a.btnLink:active {
     color: #fff;
     transition: 0.5s;
 }
+
+/* ======= DEMO:HTML ========== */
+
+.hero {
+    min-height: 50vh;
+    background: #000 url("https://upload.wikimedia.org/wikipedia/commons/3/3a/Fregio_di_Giasone_e_Medea_13_agostino_carracci%2C_giasone_trafuga_il_vello_d%27oro%2C_1584_ca..JPG") center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  }
+  .hero-content {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+  }
