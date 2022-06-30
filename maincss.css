@@ -85,7 +85,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #772907;
 }
 
@@ -209,4 +209,8 @@ a.btnLink:active {
     position: absolute;
     bottom: 15px;
     color: #fff;
+  }
+
+  .demoel {
+    display: none;
   }
