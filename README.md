@@ -4,8 +4,6 @@ Final Project - "Digital Heritage and Multimedia", Simona Caraceni & Sofia Pesca
 
 The project is accessible at the following [link](https://semafe.github.io/FAVoloso/).
 
-The design brief can be edited on Overleaf at the following [link](https://www.overleaf.com/9974665967ppngdbcrpfyv).
-
 Authors:
 - Federica Bonifazi
 - Sebastiano Giacomini
