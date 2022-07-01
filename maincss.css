@@ -211,6 +211,10 @@ a.btnLink:active {
     color: #fff;
   }
 
-  /*.demoel {
+.demoel {
     display: none;
-  }*/
+  }
+
+.progress {
+    color: #b83e09;
+}
