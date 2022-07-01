@@ -4,8 +4,8 @@ function showTwine() {
     var demo = document.getElementById('twine');
     bar.style.width = "25%";
     $( ".progresslabel" ).css("color", "gray");
-    label.style.color = "black";
     $( ".demoel" ).css("display", "none");
+    label.style.color = "black";
     demo.style.display = "block";
 }
 
@@ -15,8 +15,8 @@ function showVideo() {
     var demo = document.getElementById('animation');
     bar.style.width = "50%";
     $( ".progresslabel" ).css("color", "gray");
-    label.style.color = "black";
     $( ".demoel" ).css("display", "none");
+    label.style.color = "black";
     demo.style.display = "block";
 }
 
@@ -26,8 +26,8 @@ function showUnity() {
     var demo = document.getElementById('unity');
     bar.style.width = "75%";
     $( ".progresslabel" ).css("color", "gray");
-    label.style.color = "black";
     $( ".demoel" ).css("display", "none");
+    label.style.color = "black";
     demo.style.display = "block";
 }
 
@@ -37,7 +37,7 @@ function showWirefr() {
     var demo = document.getElementById('wireframe');
     bar.style.width = "100%";
     $( ".progresslabel" ).css("color", "gray");
-    label.style.color = "black";
     $( ".demoel" ).css("display", "none");
+    label.style.color = "black";
     demo.style.display = "block";
 }
