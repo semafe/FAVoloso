@@ -1,43 +1,63 @@
 function showTwine() {
     var bar = document.getElementById('demobar');
-    var label = document.getElementById('proTwine');
+    var labelTwine = document.getElementById('proTwine');
+    var labelAnim = document.getElementById('proAnim');
+    var labelUnity = document.getElementById('proUnity');
+    var labelWiref = document.getElementById('proWirefr');
     var demo = document.getElementById('twine');
     bar.style.width = "25%";
-    $( ".progresslabel" ).css("color", "gray");
     $( ".demoel" ).css("display", "none");
-    label.style.color = "black";
+    labelTwine.style.color = "black";
+    labelAnim.style.color = "gray";
+    labelUnity.style.color = "gray";
+    labelWiref.style.color = "gray";
     demo.style.display = "block";
 }
 
 function showVideo() {
     var bar = document.getElementById('demobar');
-    var label = document.getElementById('proAnim');
+    var labelTwine = document.getElementById('proTwine');
+    var labelAnim = document.getElementById('proAnim');
+    var labelUnity = document.getElementById('proUnity');
+    var labelWiref = document.getElementById('proWirefr');
     var demo = document.getElementById('animation');
     bar.style.width = "50%";
-    $( ".progresslabel" ).css("color", "gray");
     $( ".demoel" ).css("display", "none");
-    label.style.color = "black";
     demo.style.display = "block";
+    labelTwine.style.color = "black";
+    labelAnim.style.color = "black";
+    labelUnity.style.color = "gray";
+    labelWiref.style.color = "gray";
 }
 
 function showUnity() {
     var bar = document.getElementById('demobar');
-    var label = document.getElementById('proUnity');
+    var labelTwine = document.getElementById('proTwine');
+    var labelAnim = document.getElementById('proAnim');
+    var labelUnity = document.getElementById('proUnity');
+    var labelWiref = document.getElementById('proWirefr');
     var demo = document.getElementById('unity');
     bar.style.width = "75%";
-    $( ".progresslabel" ).css("color", "gray");
     $( ".demoel" ).css("display", "none");
-    label.style.color = "black";
     demo.style.display = "block";
+    labelTwine.style.color = "black";
+    labelAnim.style.color = "black";
+    labelUnity.style.color = "black";
+    labelWiref.style.color = "gray";
 }
 
 function showWirefr() {
     var bar = document.getElementById('demobar');
-    var label = document.getElementById('proWirefr');
+    var labelTwine = document.getElementById('proTwine');
+    var labelAnim = document.getElementById('proAnim');
+    var labelUnity = document.getElementById('proUnity');
+    var labelWiref = document.getElementById('proWirefr');    
     var demo = document.getElementById('wireframe');
     bar.style.width = "100%";
-    $( ".progresslabel" ).css("color", "gray");
     $( ".demoel" ).css("display", "none");
-    label.style.color = "black";
     demo.style.display = "block";
+    labelTwine.style.color = "black";
+    labelAnim.style.color = "black";
+    labelUnity.style.color = "black";
+    labelWiref.style.color = "black";   
 }

@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>NoStos nella pelle</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -43,17 +44,6 @@
                         <li class="nav-item mr-2">
                             <a class="nav-link" href="demo.html">Demo</a>
                         </li>
-                        <!-- ELIMINIAMO??
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demo</a>
-                            <div class="dropdown-menu dropdown-menu-end animate slideIn"
-                                aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Inizia!</a>
-                                <a class="dropdown-item" href="#">Prototipo</a>
-                            </div>
-                        </li>
-                        -->
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#about">Crediti</a>
                         </li>
@@ -77,17 +67,24 @@
 
     <div class="textsection">
         <h3>Quali avventure incontrerai sul tuo cammino?</h3>
-        <p>"Oh, ma certo ho capito: tu pensi che questo non abbia niente a che vedere con te. Tu apri il tuo armadio e scegli, non lo so, quel maglioncino azzurro infeltrito per esempio, perché vuoi gridare al mondo che ti prendi troppo sul serio per curarti di cosa ti metti addosso, ma quello che non sai è che quel maglioncino non è semplicemente azzurro, non è turchese, non è lapis, è effettivamente ceruleo, e sei anche allegramente inconsapevole del fatto che nel 2002 Oscar de la Renta ha realizzato una collezione di gonne cerulee e poi è stato Yves Saint Laurent se non sbaglio a proporre delle giacche militari color ceruleo. E poi il ceruleo è rapidamente comparso nelle collezioni di otto diversi stilisti. Dopodiché è arrivato a poco a poco nei grandi magazzini e alla fine si è infiltrato in qualche tragico angolo casual, dove tu evidentemente l’hai pescato nel cesto delle occasioni. Tuttavia quell’azzurro rappresenta milioni di dollari e innumerevoli posti di lavoro, e siamo al limite del comico quando penso che tu sia convinta di aver fatto una scelta fuori dalle proposte della moda quindi in effetti indossi un golfino che è stato selezionato per te dalle persone qui presenti… in mezzo a una pila di roba".</p>
+        <p>Il progetto "No<i>Stos</i> nella pelle!" è accessibile come applicazione per tablet con sistema operativo Android. Puoi scaricare l'applicazione direttamente dall'icona qui sotto e avere informazioni più dettagliate sul progetto leggendo la relativa documentazione (in lingua inglese). È comunque possibile accedere tramite la sezione sottostante ad alcuni prototipi significativi.</p>
+        <p><a href="designBrief.pdf" download style="color: #772907;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-down" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"/>
+                <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+              </svg></a> 
+            Scarica l'applicazione per tablet (sistema operativo: Android)
+        </p>
     </div>
     
     <div class="textsection">
         <h4>Prototipi</h4>
-        <div class="container" style="margin-top: 3em;">
+        <div class="container" style="margin-top: 2em;">
             <div class="row text-center" style="font-size: 1.3em; color: grey;">
-                <div class="col-sm progesslabel" id="proTwine" onclick="showTwine()"><b>Twine</b></div>
-                <div class="col-sm progesslabel" id="proAnim" onclick="showVideo()"><b>Animazioni</b></div>
-                <div class="col-sm progesslabel" id="proUnity" onclick="showUnity()"><b>Videogame</b></div>
-                <div class="col-sm progesslabel" id="proWirefr" onclick="showWirefr()"><b>Puzzle conclusivo</b></div>
+                <div class="col-sm progesslabel" id="proTwine" onclick="showTwine()"><b><i class="bi bi-chat-left-quote" style="font-size: 2em;"></i><br>Storyboard</b></div>
+                <div class="col-sm progesslabel" id="proAnim" onclick="showVideo()"><b><i class="bi bi-camera-reels" style="font-size: 2em;"></i><br>Animazioni</b></div>
+                <div class="col-sm progesslabel" id="proUnity" onclick="showUnity()"><b><i class="bi bi-controller" style="font-size: 2em;"></i><br>Videogame</b></div>
+                <div class="col-sm progesslabel" id="proWirefr" onclick="showWirefr()"><b><i class="bi bi-puzzle" style="font-size: 2em;"></i><br>Puzzle conclusivo</b></div>
             </div>
         </div>
         <div class="progress" style="margin-top: 1.2em; height: 0.3em;">
@@ -96,7 +93,7 @@
         </div>
     </div>
 
-    <!-- First content -->
+    <!-- First content: Twine -->
 
     <div class="textsection demoel" id="twine">
         <embed type="text/html" src="prototype/twine.html"  width="100%" height="500">
@@ -104,7 +101,7 @@
 
     </div>
 
-    <!-- Second content -->
+    <!-- Second content: Video -->
 
     <div class="textsection demoel" style="text-align: center;" id="animation">
         <video width="80%" height="400" id="introvid" controls style="margin-top: 3em">
@@ -118,14 +115,15 @@
         <p style="text-align: left; margin-top: 1rem; margin-left: 10%;">Animazioni realizzate tramite il software <i>Aftereffects</i>. Voce narrante: Simone Tentori.</p>
     </div>
 
-    <!-- Third content -->
+    <!-- Third content: Unity -->
 
     <div class="textsection demoel" id="unity" style="text-align: center;">
-        <p><b>Videogame here</b></p>
-        <p style="text-align: left; margin-top: 1rem; margin-left: 10%;">Videogioco realizzato tramite il software <i>Unity</i>.</p>
+        <a href="http://www.nardinan.it/maze"><img src="prototype/screenshotUnity.png" width="80%"></a>
+        <p style="text-align: left; margin-top: 1rem; margin-left: 10%; margin-right: 10%;">Videogioco realizzato tramite il software <i>Unity</i>.</p> 
+        <p class="cap" style="text-align: left; margin-top: 1rem; margin-left: 10%; margin-right: 10%;">Per accedere al videogame è sufficiente clickare su questo screenshot. Muoviti utilizzando le frecce o WASD e interagisci con gli oggetti nel labirinto o continua i dialoghi premendo il tasto F.</p>
     </div>
 
-    <!-- Fourth content -->
+    <!-- Fourth content: Wireframe -->
 
     <div class="textsection demoel" id="wireframe">
         <img src="prototype/wireframe.png" style="margin-left: auto; margin-right: auto; width: 100%;">

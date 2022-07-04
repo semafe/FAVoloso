@@ -149,6 +149,11 @@ a.btnLink:active {
     font-size: 1.2em;
 }
 
+.cap {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* ===== TEAM SECTION, ref. https://www.markuptag.com/user-profile-card-html-in-bootstrap-5/ ===== */
 
 .profile-card {
@@ -215,6 +220,6 @@ a.btnLink:active {
     display: none;
   }
 
-.progress {
-    color: #b83e09;
+.progress-bar {
+    background-color: #b83e09 !important;
 }
